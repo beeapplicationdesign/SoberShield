@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoberShield - Safety First</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #52D39F;
+            --bg: #0A0F1D;
+            --surface: #161C2C;
+            --text: #FFFFFF;
+            --text-dim: #A0AEC0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        header {
+            padding: 100px 0;
+            text-align: center;
+            background: radial-gradient(circle, rgba(82, 211, 159, 0.1) 0%, transparent 70%);
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #fff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 15px 40px;
+            background: var(--primary);
+            color: var(--bg);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-top: 30px;
+        }
+
+        /* Legal Sections */
+        section {
+            padding: 60px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 30px;
+        }
+
+        .legal-content {
+            background: var(--surface);
+            padding: 30px;
+            border-radius: 20px;
+            color: var(--text-dim);
+            font-size: 0.95rem;
+        }
+
+        .legal-content h3 {
+            color: #fff;
+            margin: 20px 0 10px 0;
+        }
+
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+        }
+
+        .footer-links a {
+            color: var(--primary);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>SoberShield</h1>
+            <p style="font-size: 1.2rem; color: var(--text-dim);">Your intelligent companion for a safer, sober
+                lifestyle.</p>
+            <a href="#" class="cta">Available on App Store</a>
+        </div>
+    </header>
+
+    <!-- Support Section -->
+    <section id="support">
+        <div class="container">
+            <h2>Support & Contact</h2>
+            <div class="legal-content">
+                <p>We are here to help you stay safe. If you have any questions, encounter bugs, or need assistance with
+                    SoberBuddy features, please reach out.</p>
+                <h3>Contact Email</h3>
+                <p><strong>[YOUR_EMAIL_HERE]</strong></p>
+                <h3>FAQ</h3>
+                <p><strong>How to enable protections?</strong> Go to Home tab and select 'Plan Protection'.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section id="privacy">
+        <div class="container">
+            <h2>Privacy Policy</h2>
+            <div class="legal-content">
+                <p>Last Updated: March 6, 2026</p>
+                <h3>1. User Data</h3>
+                <p>SoberShield processes Location data and Contacts locally on your device for Geofencing and Sober
+                    Buddy features. We do not store your precise location on our servers.</p>
+                <h3>2. Screen Time</h3>
+                <p>App blocking uses Apple's Family Controls API. We do not have access to your personal app usage
+                    statistics or browsing history.</p>
+                <h3>3. Advertising</h3>
+                <p>We use Google AdMob for personalized ads. You can opt-out via system settings.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 SoberShield.</p>
+            <div class="footer-links">
+                <a href="#support">Support</a>
+                <a href="#privacy">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
